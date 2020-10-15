@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab1</string>
+
+    <string name="spassky_name">Theatre on Spasskaya</string>
+    <string name="spassky_address">Kirov, Spasskaya str., 17</string>
+    <string name="drama_name">Kirov drama theatre</string>
+    <string name="drama_address">Kirov, Moskovskaya str., 37</string>
+    <string name="dolls_name">The Kirov theatre of dolls of a name of A. N. Afanasyev</string>
+    <string name="dolls_address">Kirov, Spasskaya str., 22</string>
+
+    <string name="poster_button_text">Poster</string>
+    <string name="troupe_button_text">Troupe</string>
+</resources>

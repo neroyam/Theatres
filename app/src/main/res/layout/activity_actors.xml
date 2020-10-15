@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/relative_padding" >
+
+    <LinearLayout
+        android:id="@+id/actors_toolbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/relative_margin"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/theatre_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:layout_margin="@dimen/relative_margin"
+            android:textSize="@dimen/theatre_name_size"
+            android:textStyle="bold"
+            android:gravity="center_vertical" />
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:layout_margin="@dimen/relative_margin"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/actors_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/relative_margin"/>
+
+</LinearLayout>

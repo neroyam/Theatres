@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/relative_padding">
+
+        <ImageView
+            android:id="@+id/theatre_image_view_details"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_view_details_height"
+            android:layout_margin="@dimen/relative_margin" />
+
+        <TextView
+            android:id="@+id/theatre_name_text_view_details"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/relative_margin"
+            android:textSize="@dimen/theatre_name_size" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/relative_margin">
+            <ImageView
+                android:layout_height="@dimen/mini_image_view_details_height"
+                android:layout_width="@dimen/mini_image_view_details_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:src="@drawable/site_icon"/>
+            <TextView
+                android:id="@+id/theatre_site_text_view"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/relative_margin"
+                android:textSize="@dimen/theatre_address_size"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColorLink="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/relative_margin">
+            <ImageView
+                android:layout_height="@dimen/mini_image_view_details_height"
+                android:layout_width="@dimen/mini_image_view_details_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:src="@drawable/phone_icon"/>
+            <TextView
+                android:id="@+id/theatre_phone_text_view"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/relative_margin"
+                android:textSize="@dimen/theatre_address_size"
+                android:autoLink="phone"
+                android:linksClickable="true"
+                android:textColorLink="@color/colorPrimary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/relative_margin">
+            <ImageView
+                android:layout_height="@dimen/mini_image_view_details_height"
+                android:layout_width="@dimen/mini_image_view_details_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:src="@drawable/map_icon"/>
+            <TextView
+                android:id="@+id/theatre_address_text_view"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/relative_margin"
+                android:textSize="@dimen/theatre_address_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/relative_margin">
+            <ImageView
+                android:layout_height="@dimen/mini_image_view_details_height"
+                android:layout_width="@dimen/mini_image_view_details_width"
+                android:layout_margin="@dimen/relative_margin"
+                android:src="@drawable/vk_icon"/>
+            <TextView
+                android:id="@+id/theatre_vk_text_view"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_margin="@dimen/relative_margin"
+                android:textSize="@dimen/theatre_address_size"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textColorLink="@color/colorPrimary" />
+        </LinearLayout>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/map_view_height"
+            android:layout_margin="@dimen/relative_margin"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/relative_margin">
+            <Button
+                android:id="@+id/poster"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/poster_button_text" />
+            <Button
+                android:id="@+id/troupe"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/troupe_button_text"
+                android:onClick="TroupeButtonClick"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

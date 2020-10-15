@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab1</string>
+
+    <string name="spassky_name">Teatro su Spasskaya</string>
+    <string name="spassky_address">Kirov, via Spasskaya, 17</string>
+    <string name="drama_name">Teatro drammatico di Kirov</string>
+    <string name="drama_address">Kirov, via Moskovskaja, 37</string>
+    <string name="dolls_name">Kirov Teatro delle marionette intitolato A. N. Afanasyev</string>
+    <string name="dolls_address">Kirov, via Spasskaya, 22</string>
+
+    <string name="poster_button_text">Tabellone</string>
+    <string name="troupe_button_text">Attori</string>
+</resources>

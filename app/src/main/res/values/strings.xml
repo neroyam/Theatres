@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">KirovTheaters</string>
+
+    <string name="spassky_name">Театр на Спасской</string>
+    <string name="spassky_address">г.Киров, ул. Спасская, 17</string>
+    <string name="drama_name">Кировский драматический театр</string>
+    <string name="drama_address">г.Киров, ул. Московская, 37</string>
+    <string name="dolls_name">Кировский театр кукол имени А.Н. Афанасьева</string>
+    <string name="dolls_address">г. Киров, ул. Спасская, 22</string>
+
+    <string name="poster_button_text">Афиша</string>
+    <string name="troupe_button_text">Актеры</string>
+
+    <string-array name="theatre_names">
+        <item>@string/spassky_name</item>
+        <item>@string/drama_name</item>
+        <item>@string/dolls_name</item>
+    </string-array>
+
+    <string-array name="theatre_addresses">
+        <item>@string/spassky_address</item>
+        <item>@string/drama_address</item>
+        <item>@string/dolls_address</item>
+    </string-array>
+
+    <string-array name="theatre_sites">
+        <item>https://ekvus-kirov.ru/</item>
+        <item>https://kirovdramteatr.ru/</item>
+        <item>http://kirovkukla.ru/</item>
+    </string-array>
+
+    <string-array name="theatre_troupes">
+        <item>https://ekvus-kirov.ru/truppa/</item>
+        <item>https://kirovdramteatr.ru/truppa/</item>
+        <item>http://kirovkukla.ru/truppa</item>
+    </string-array>
+
+    <string-array name="theatre_vk">
+        <item>https://vk.com/theateronthespasskaya</item>
+        <item>https://vk.com/kirov.dramteatr</item>
+        <item>https://vk.com/teatr_kukol_kirov</item>
+    </string-array>
+
+    <string-array name="theatre_phones">
+        <item>(8332)715–720</item>
+        <item>(8332)640–989</item>
+        <item>(8332)414–499</item>
+    </string-array>
+</resources>
